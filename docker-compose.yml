@@ -9,6 +9,7 @@ services:
       - DATABASE_URL=jdbc:mysql://keepdb:3306/keep
       - DATABASE_USER=root
       - DATABASE_PASS=123456
+    restart: always
     depends_on:
       keepdb:
         condition: service_healthy
@@ -16,7 +17,7 @@ services:
   keepdb:
     image: mysql:8.0
     ports:
-      - "3307:3306"
+      - "3308:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     environment:
