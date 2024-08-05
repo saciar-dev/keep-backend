@@ -1,0 +1,6 @@
+com\eventGames\keepApp\controller\UsuarioController.class
+com\eventGames\keepApp\KeepAppApplication.class
+com\eventGames\keepApp\service\UsuarioService.class
+com\eventGames\keepApp\model\Usuario$UsuarioBuilder.class
+com\eventGames\keepApp\model\Usuario.class
+com\eventGames\keepApp\repository\UsuarioRepository.class
