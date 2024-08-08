@@ -20,7 +20,7 @@ public class Usuario {
     @Column(length = 100, nullable = false)
     private String nombre;
 
-    @Column(length = 50, nullable = false)
+    @Column(length = 100, nullable = false)
     private String telefono;
 
     private Integer correctas;
